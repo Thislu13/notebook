@@ -1,5 +1,5 @@
 #工具/Git使用
-# Git 建立 ssh 链接
+# Git 建立 ssh 连接
 
 ## 一、单git用户
 
