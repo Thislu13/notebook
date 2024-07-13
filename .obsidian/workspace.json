@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1~10李沐.md",
+                "file": "二值化方法.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#包",
+                "query": "tag:#数字图像处理",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1~10李沐.md",
+                "file": "二值化方法.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1~10李沐.md",
+                "file": "二值化方法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1~10李沐.md"
+                "file": "二值化方法.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -148,22 +148,22 @@
   },
   "active": "32b985e4ab2e4fa9",
   "lastOpenFiles": [
+    "欧拉数.md",
+    "二值化方法.md",
+    "1~10李沐.md",
+    "服务器使用技巧.md",
+    "Tansformer.md",
+    "python技巧.md",
+    "Python常见问题解决.md",
+    "Numpy.md",
+    "Git使用.md",
+    "Git 建立 ssh 连接.md",
+    "性能测试.md",
     "线性代数.md",
     "Untitled.md",
     "Untitled Folder",
-    "二值化方法.md",
-    "服务器使用技巧.md",
-    "python技巧.md",
-    "1~10李沐.md",
     "CS231n.md",
-    "Tansformer.md",
     "python.md",
-    "性能测试.md",
-    "欧拉数.md",
-    "Git 建立 ssh 连接.md",
-    "Git使用.md",
-    "Numpy.md",
-    "Python常见问题解决.md",
     "未命名.md",
     "2024-07-05.md"
   ]

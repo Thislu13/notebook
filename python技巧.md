@@ -1,3 +1,4 @@
+#python/技巧
 # 1.遍历使用`enumerate`内置枚举函数
 
 ```python
