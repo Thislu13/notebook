@@ -2,9 +2,9 @@
 
 > 本质是加权求和     编码和解码是基础
 
-![image-20240710210713909](https://cdn.jsdelivr.net/gh/Thislu13/image_save@main/notebook/202407102107881.png)
+![image-20240713160452077](http://cdn.jsdelivr.net/gh/Thislu13/image_save@main/notebook/202407131604001.png)
 
-![技术发展](https://cdn.jsdelivr.net/gh/Thislu13/image_save@main/notebook/202407102110894.png)
+![image-20240713160528967](C:/Users/wangqiushuo/AppData/Roaming/Typora/typora-user-images/image-20240713160528967.png)
 
 
 
@@ -35,11 +35,11 @@
 
     再将相乘之后得到的结果相加（向量的合成）得到原来的向量
 
-    ![image-20240710215233559](http://cdn.jsdelivr.net/gh/Thislu13/image_save@main/notebook/202407102152474.png)
+    ![image-20240713160554038](http://cdn.jsdelivr.net/gh/Thislu13/image_save@main/notebook/202407131605929.png)
 
   * 也可以将上面结合认为同时发生改变
 
-![三种变化](http://cdn.jsdelivr.net/gh/Thislu13/image_save@main/notebook/202407102152540.png)
+![image-20240713160649383](http://cdn.jsdelivr.net/gh/Thislu13/image_save@main/notebook/202407131606238.png)
 
 
 * 二次型可以认为是 平方操作
@@ -48,7 +48,7 @@ $$
 P(x) = x^TAx \approx f(x) = ax^2
 $$
 
-![image-20240710215835678](http://cdn.jsdelivr.net/gh/Thislu13/image_save@main/notebook/202407102158068.png)
+![image-20240713160753692](http://cdn.jsdelivr.net/gh/Thislu13/image_save@main/notebook/202407131607928.png)
 
 * 以上可知在矩阵乘法的过程中 
   * 第一个数代表 多个向量集合  
@@ -61,16 +61,15 @@ $$
 
   * Word2Vec 非常规，希望得到是变换矩阵 
 
-    * CBOW 输入奇数个TOKEN 去掉一个 将其余偶数个投入变换矩阵 将四个新向量加在一起 得到一个新的 和向量 这个应该与被挖掉的相同 计算其损失值
-
-      参考力的合成与分解，用其他词表达挖掉的词，理解为  在什么什么环境下，需要这个词，也就是词义！
-      无需关心具体要填什么，目的是得到这个转化矩阵
-
+    * CBOW 输入奇数个TOKEN 去掉一个 将其余偶数个投入变换矩阵 将四个新向量加在一起 得到一个新的 和向量 这个应该与被挖掉的相同 计算其损失值参考力的合成与分解，用其他词表达挖掉的词，理解为  在什么什么环境下，需要这个词，也就是词义！
+    无需关心具体要填什么，目的是得到这个转化矩阵
+      
       **客观的词义由主观的人组合在一起得到语义**
-      得到的结果非人写文字的主观表达，是抛去人主管的客观含义（就是语义）
-
+    得到的结果非人写文字的主观表达，是抛去人主管的客观含义（就是语义）
+      
     * skip-gram 用一个 去猜其余几个
 
 * 注意力
 
 ![image-20240712093109268](http://cdn.jsdelivr.net/gh/Thislu13/image_save@main/notebook/202407120931825.png)
+
