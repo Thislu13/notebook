@@ -41,6 +41,7 @@
 
 ![三种变化](http://cdn.jsdelivr.net/gh/Thislu13/image_save@main/notebook/202407102152540.png)
 
+
 * 二次型可以认为是 平方操作
 
 $$
