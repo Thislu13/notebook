@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git分支管理.md",
+                "file": "线性代数.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git分支管理.md",
+                "file": "线性代数.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git分支管理.md",
+                "file": "线性代数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git分支管理.md"
+                "file": "线性代数.md"
               }
             }
           },
@@ -148,8 +148,8 @@
   },
   "active": "32b985e4ab2e4fa9",
   "lastOpenFiles": [
-    "线性代数.md",
     "git分支管理.md",
+    "线性代数.md",
     "Untitled.md",
     "二值化方法.md",
     "Tansformer.md",
