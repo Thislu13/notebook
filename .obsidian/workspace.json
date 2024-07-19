@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -147,7 +146,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "32b985e4ab2e4fa9",
+  "active": "e7a249fdb14d2c59",
   "lastOpenFiles": [
     "1~10李沐.md",
     "动手学深度学习（二预备知识）.md",
