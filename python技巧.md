@@ -60,4 +60,37 @@ out = {**data_1, **data_2}
 
 自动去重
 
-# 8.
+# 8.yield函数
+
+是个可以多次循环的 return
+
+```python
+def foo(num):
+    print("starting...")
+    while num<10:
+        num=num+1
+        yield num
+for n in foo(0):
+    print(n)
+```
+
+输出是 1到10，返回结果程序不暂停
+
+其中有next关键字，可以实现类似断电调试的功能
+
+```python
+def foo():
+    print("starting...")
+    while True:
+        res = yield 4
+        print("res:",res)
+g = foo()
+print(next(g))
+print("*"*20)
+print(g.send(7))
+```
+
+其中 send 可以将7 返回给 res，同时send自带next功能
+
+
+

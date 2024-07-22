@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "297d7e93be33283a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,7 +157,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "e7a249fdb14d2c59",
+  "active": "297d7e93be33283a",
   "lastOpenFiles": [
     "1~10李沐.md",
     "动手学深度学习（二预备知识）.md",
