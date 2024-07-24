@@ -23,9 +23,11 @@
             "id": "297d7e93be33283a",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.6.7"
+                "file": "python技巧.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "线性代数.md",
+                "file": "python技巧.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "线性代数.md",
+                "file": "python技巧.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "线性代数.md"
+                "file": "python技巧.md"
               }
             }
           },
@@ -159,19 +161,21 @@
   },
   "active": "297d7e93be33283a",
   "lastOpenFiles": [
-    "1~10李沐.md",
+    "动手学深度学习（三深度学习基础）.md",
+    "动手学深度学习（深度学习基础）.md",
+    "Untitled.md",
+    "Python常见问题解决.md",
+    "性能测试.md",
     "动手学深度学习（二预备知识）.md",
+    "1~10李沐.md",
     "线性代数.md",
     "二值化方法.md",
     "Numpy.md",
     "git分支管理.md",
-    "Untitled.md",
     "Tansformer.md",
     "欧拉数.md",
-    "性能测试.md",
     "服务器使用技巧.md",
     "python技巧.md",
-    "Python常见问题解决.md",
     "Git使用.md",
     "Git 建立 ssh 连接.md",
     "Untitled Folder",
