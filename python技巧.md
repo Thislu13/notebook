@@ -94,5 +94,11 @@ print(g.send(7))
 
 # 9.在ecxel里追加新的sheet
 
-
+```python
+    book = openpyxl.load_workbook(combination_path)
+    writer = pd.ExcelWriter(combination_path, engine='openpyxl')
+    writer.book = book
+    xlsx_1.to_excel(writer, "statistics", index=False)
+    writer.save()
+```
 
