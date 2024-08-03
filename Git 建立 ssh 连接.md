@@ -154,8 +154,7 @@ Host company-git
 
 ```
 git config --local user.name zhangsan[改为你的真实姓名]
-git config --local user.name zhangsan@company.com[改为你公司的邮箱]
+git config --local user.email zhangsan@company.com[改为你公司的邮箱]
 ```
-
 
 
