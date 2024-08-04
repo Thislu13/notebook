@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "动手学深度学习（三深度学习基础）.md",
+                "file": "动手学深度学习（四常见问题 ）.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "动手学深度学习（三深度学习基础）.md",
+                "file": "动手学深度学习（四常见问题 ）.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "动手学深度学习（三深度学习基础）.md",
+                "file": "动手学深度学习（四常见问题 ）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "动手学深度学习（三深度学习基础）.md"
+                "file": "动手学深度学习（四常见问题 ）.md"
               }
             }
           },
@@ -161,10 +161,10 @@
   },
   "active": "297d7e93be33283a",
   "lastOpenFiles": [
+    "动手学深度学习（三深度学习基础）.md",
+    "动手学深度学习（二预备知识）.md",
     "动手学深度学习（四常见问题 ）.md",
     "Untitled.md",
-    "动手学深度学习（二预备知识）.md",
-    "动手学深度学习（三深度学习基础）.md",
     "Tansformer.md",
     "python技巧.md",
     "Python常见问题解决.md",
