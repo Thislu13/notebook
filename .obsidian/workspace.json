@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "目标检测.md",
+                "file": "卷积.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "目标检测.md",
+                "file": "卷积.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "目标检测.md",
+                "file": "卷积.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "目标检测.md"
+                "file": "卷积.md"
               }
             }
           },
@@ -161,11 +161,19 @@
   },
   "active": "297d7e93be33283a",
   "lastOpenFiles": [
-    "动手学深度学习（四常见问题 ）.md",
+    "欧拉数.md",
+    "性能测试.md",
+    "线性代数.md",
     "目标检测.md",
-    "Untitled.md",
+    "卷积.md",
+    "服务器使用技巧.md",
+    "二值化方法.md",
+    "动手学深度学习（五计算相关）.md",
     "动手学深度学习（三深度学习基础）.md",
     "动手学深度学习（二预备知识）.md",
+    "动手深度学习（五计算相关）.md",
+    "动手学深度学习（四常见问题 ）.md",
+    "Untitled.md",
     "Tansformer.md",
     "python技巧.md",
     "Python常见问题解决.md",
@@ -174,19 +182,11 @@
     "Git使用.md",
     "git分支管理.md",
     "Git 建立 ssh 连接.md",
-    "性能测试.md",
-    "欧拉数.md",
-    "线性代数.md",
-    "卷积.md",
-    "服务器使用技巧.md",
-    "二值化方法.md",
     "Linux常用命令.md",
     "动手学深度学习（深度学习基础）.md",
     "1~10李沐.md",
     "Untitled Folder",
     "CS231n.md",
-    "python.md",
-    "未命名.md",
-    "2024-07-05.md"
+    "python.md"
   ]
 }
