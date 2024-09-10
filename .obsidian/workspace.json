@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "迁移学习.md",
+                "file": "动手学深度学习（三深度学习基础）.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "迁移学习.md",
+                "file": "动手学深度学习（三深度学习基础）.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "迁移学习.md",
+                "file": "动手学深度学习（三深度学习基础）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "迁移学习.md"
+                "file": "动手学深度学习（三深度学习基础）.md"
               }
             }
           },
@@ -161,8 +161,10 @@
   },
   "active": "297d7e93be33283a",
   "lastOpenFiles": [
+    "动手学深度学习（四常见问题 ）.md",
     "动手学深度学习（六卷积神经网络）.md",
     "动手学深度学习（三深度学习基础）.md",
+    "迁移学习.md",
     "卷积.md",
     "欧拉数.md",
     "性能测试.md",
@@ -173,7 +175,6 @@
     "动手学深度学习（五计算相关）.md",
     "动手学深度学习（二预备知识）.md",
     "动手深度学习（五计算相关）.md",
-    "动手学深度学习（四常见问题 ）.md",
     "Untitled.md",
     "Tansformer.md",
     "python技巧.md",
@@ -186,7 +187,6 @@
     "Linux常用命令.md",
     "动手学深度学习（深度学习基础）.md",
     "1~10李沐.md",
-    "Untitled Folder",
-    "CS231n.md"
+    "Untitled Folder"
   ]
 }
