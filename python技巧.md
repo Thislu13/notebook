@@ -1,4 +1,5 @@
 #python/技巧
+
 # 1.遍历使用`enumerate`内置枚举函数
 
 ```python
@@ -102,3 +103,48 @@ print(g.send(7))
     writer.save()
 ```
 
+# 10.魔法函数
+
+`__dict__`:
+
+`__dict__`直接作用于数据类型，返回数据类型的结构
+
+`__dict__`作用于数据结构构造的对象，返回属性
+
+```python
+class A(object):
+    a = 0
+    b = 1
+
+    def __init__(self):
+        self.a = 2
+        self.b = 3
+ 
+    def test(self):
+        print 'a normal func.'
+ 
+    @staticmethod
+    def static_test(self):
+        print 'a static func.'
+ 
+    @classmethod
+    def class_test(self):
+        print 'a calss func.'
+ 
+ 
+obj = A()
+print A.__dict__
+print obj.__dict__
+
+
+{'a': 0, '__module__': '__main__', 'b': 1, 'class_test': <classmethod object at 0x00000000021882E8>, '__dict__': <attribute '__dict__' of 'A' objects>, '__init__': <function __init__ at 0x00000000023A5BA8>, 'test': <function test at 0x00000000023A5C18>, '__weakref__': <attribute '__weakref__' of 'A' objects>, '__doc__': '\n    Class A.\n    ', 'static_test': <staticmethod object at 0x00000000021881C8>}
+
+
+{'a': 2, 'b': 3}
+```
+
+
+
+# 在类内的嵌套类调用别的嵌套类
+
+可以将调用的对象` 'MyData.Enum_key_remark'`,解决编译时的报错
