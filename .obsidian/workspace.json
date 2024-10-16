@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "线性代数.md",
+                "file": "卷积.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "37126a6a54ba2dba",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "线性代数.md",
+                "file": "卷积.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "线性代数.md",
+                "file": "卷积.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "线性代数.md"
+                "file": "卷积.md"
               }
             }
           },
@@ -138,6 +138,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -148,6 +149,11 @@
   },
   "active": "32b985e4ab2e4fa9",
   "lastOpenFiles": [
+    "迁移学习.md",
+    "目标检测.md",
+    "卷积.md",
+    "服务器使用技巧.md",
+    "线性代数.md",
     "Tansformer.md",
     "动手学深度学习(经典网络).md",
     "动手学深度学习（二预备知识）.md",
@@ -155,13 +161,8 @@
     "动手学深度学习（三深度学习基础）.md",
     "动手学深度学习（四常见问题 ）.md",
     "动手学深度学习（六卷积神经网络）.md",
-    "迁移学习.md",
-    "卷积.md",
     "欧拉数.md",
     "性能测试.md",
-    "线性代数.md",
-    "目标检测.md",
-    "服务器使用技巧.md",
     "二值化方法.md",
     "动手学深度学习（五计算相关）.md",
     "动手深度学习（五计算相关）.md",
