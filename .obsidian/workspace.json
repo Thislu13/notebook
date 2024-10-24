@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git常见问题解决.md",
+                "file": "Git使用.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git常见问题解决"
+              "title": "Git使用"
             }
           }
         ]
@@ -163,10 +163,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bf629edb083a0bbb",
+  "active": "8c957ac0688f0f06",
   "lastOpenFiles": [
+    "Git 建立 ssh 连接.md",
     "Git使用.md",
-    "git常见问题解决.md",
-    "Git 建立 ssh 连接.md"
+    "git常见问题解决.md"
   ]
 }
