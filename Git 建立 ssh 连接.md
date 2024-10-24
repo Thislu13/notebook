@@ -48,7 +48,7 @@ ssh-keygen -t rsa -C 'email'
   Enter passphrase (empty for no passphrase):
   ```
 
-  > 生成密码 嫌麻烦跳过
+ > 生成密码 嫌麻烦跳过
 
 > 无特殊需求交互页面无脑回车 
 
@@ -58,7 +58,7 @@ ssh-keygen -t rsa -C 'email'
   cat ~/.ssh/id_rsa.pub
   ```
 
-  > 生成字符末尾为实际密钥
+ > 生成字符末尾为实际密钥
 
 * 测试
 ```
