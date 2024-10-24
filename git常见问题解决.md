@@ -17,6 +17,6 @@
   https.proxy=https://127.0.0.1:7890
   ```
 
-  
+* picgo图床设置
 
-  
+  ![image-20241024190248170](https://raw.githubusercontent.com/Thislu13/image_save/main/notebook/202410241902220.png)
