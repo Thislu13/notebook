@@ -60,6 +60,10 @@ ssh-keygen -t rsa -C 'email'
 
   > 生成字符末尾为实际密钥
 
+* 测试
+```
+ssh -T git@github.com
+```
 ## 二、多git用户
 
 ### PlanA
