@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git使用.md",
+                "file": "动手学深度学习（六卷积神经网络）.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git使用"
+              "title": "动手学深度学习（六卷积神经网络）"
             }
           }
         ]
@@ -163,10 +163,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8c957ac0688f0f06",
+  "active": "bf629edb083a0bbb",
   "lastOpenFiles": [
-    "Git 建立 ssh 连接.md",
+    "动手学深度学习（三深度学习基础）.md",
+    "Numpy.md",
+    "Linux基础知识.md",
+    "git常见问题解决.md",
     "Git使用.md",
-    "git常见问题解决.md"
+    "Git 建立 ssh 连接.md"
   ]
 }
