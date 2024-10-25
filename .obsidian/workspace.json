@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tansformer.md",
+                "file": "动手学深度学习(经典网络).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tansformer"
+              "title": "动手学深度学习(经典网络)"
             }
           }
         ]
@@ -165,9 +165,10 @@
   },
   "active": "bf629edb083a0bbb",
   "lastOpenFiles": [
+    "动手学深度学习（六卷积神经网络）.md",
+    "Tansformer.md",
     "线性代数.md",
     "动手学深度学习（二预备知识）.md",
-    "动手学深度学习（六卷积神经网络）.md",
     "动手学深度学习（三深度学习基础）.md",
     "Numpy.md",
     "Linux基础知识.md",
