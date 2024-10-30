@@ -40,3 +40,31 @@ lsblk
 
 使用`lsblk`寻找需要挂载的目标分区
 
+将目标磁盘挂载到新的目录
+
+` sudo mount /dev/sda1 /media/00.Data`
+
+验证
+
+`df -h | grep 00.Data`
+
+* 设置开机自动挂载
+
+先获取分区的 UUID：
+
+`sudo blkid /dev/sda1`
+
+打开 `/etc/fstab` 文件：
+
+`sudo nano /etc/fstab`
+
+追加以下行，将 UUID 替换为获取的值：
+
+`UUID= /media/00.Data ext4 defaults 0 2`
+
+> `ext4` 是分区的文件系统类型（可以根据实际情况调整）。
+>
+> `defaults` 是挂载选项，`0` 和 `2` 用于备份和检查设置。
+
+
+
