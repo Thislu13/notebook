@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "动手学深度学习（三深度学习基础）"
             }
+          },
+          {
+            "id": "020f2922f2f1b5e9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.5"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.5"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,10 +176,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bf629edb083a0bbb",
+  "active": "020f2922f2f1b5e9",
   "lastOpenFiles": [
-    "概率论.md",
     "Untitled.md",
+    "概率论.md",
     "动手学深度学习(经典网络).md",
     "动手学深度学习（六卷积神经网络）.md",
     "Tansformer.md",
