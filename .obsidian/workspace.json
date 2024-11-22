@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git 建立 ssh 连接.md",
+                "file": "SSD原理及实现.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Git 建立 ssh 连接 的反向链接列表"
+              "title": "SSD原理及实现 的反向链接列表"
             }
           },
           {
@@ -150,8 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -164,7 +163,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7f9f362852f4c5ac",
+  "active": "d2dcaa2e0336e4af",
   "lastOpenFiles": [
     "目标检测.md",
     "SSD原理及实现.md",
