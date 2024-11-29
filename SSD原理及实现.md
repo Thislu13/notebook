@@ -34,6 +34,17 @@ def bbox_predictor(num_inputs, num_anchors):
 
 在不同尺度的特征图中，可以提取到不同的目标
 
-但是不同尺度的特征图经过预测网络得到输出的尺寸存在差异（例如，在类别预测过程中，不同层需要检测的目标框类别有差异，因此输出存在差异），往往只有0通道，也就是batch_size一致
+但是不同尺度的特征图经过预测网络得到输出的尺寸存在差异（例如，在类别预测过程中，不同层需要检测的目标框类别有差异，因此输出存在差异），往往只有0维，也就是batch_size一致
 
-为了保证
+为了将这多个个预测输出链接起来以提高计算效率，我们需要把这些张量转换为更一致的格式。
+
+为了保证同一特征层的值具有连贯性，我们将第一维移动到最后，再将其拉成二维向量，随后将多个二维向量进行拼接。
+
+```python
+def flatten_pred(pred):
+    return torch.flatten(pred.permute(0, 2, 3, 1), start_dim=1)
+
+def concat_preds(preds):
+    return torch.cat([flatten_pred(p) for p in preds], dim=1)
+```
+
