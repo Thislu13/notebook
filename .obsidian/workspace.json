@@ -21,8 +21,19 @@
               "icon": "lucide-file",
               "title": "SSD原理及实现"
             }
+          },
+          {
+            "id": "af251f8a79597048",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +105,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SSD原理及实现.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "SSD原理及实现 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
@@ -163,7 +173,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d2dcaa2e0336e4af",
+  "active": "af251f8a79597048",
   "lastOpenFiles": [
     "目标检测.md",
     "SSD原理及实现.md",
