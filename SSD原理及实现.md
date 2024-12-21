@@ -48,3 +48,63 @@ def concat_preds(preds):
     return torch.cat([flatten_pred(p) for p in preds], dim=1)
 ```
 
+## 基础模块
+
+将输入的图片进行特征提取，使用 `down_sample_blk` 将图片高宽减半（合理使用填充为1，3*3 的卷积、 2 *2的最大汇聚层）
+
+```python
+def down_sample_blk(in_channels, out_channels):
+    blk = []
+    for _ in range(2):
+        blk.append(nn.Conv2d(in_channels, out_channels,
+                             kernel_size=3, padding=1))
+        blk.append(nn.BatchNorm2d(out_channels))
+        blk.append(nn.ReLU())
+        in_channels = out_channels
+    blk.append(nn.MaxPool2d(2))
+    return nn.Sequential(*blk)
+```
+
+以上采用了两个 填充1，3 * 3 的卷积 加上 2 * 2 的最大汇聚层，此时每个像素有 1*2 + （3-1）+（3-1）的感受野。
+
+通过三个这样逐层减半的模块实现基本的特征提取
+
+```python
+def base_net():
+    blk = []
+    num_filters = [3, 16, 32, 64]
+    for i in range(len(num_filters) - 1):
+        blk.append(down_sample_blk(num_filters[i], num_filters[i+1]))
+    return nn.Sequential(*blk)
+
+forward(torch.zeros((2, 3, 256, 256)), base_net()).shape
+```
+
+## 完整网络
+
+```python
+def get_blk(i):
+    if i == 0:
+        blk = base_net()
+    elif i == 1:
+        blk = down_sample_blk(64, 128)
+    elif i == 4:
+        blk = nn.AdaptiveMaxPool2d((1,1))
+    else:
+        blk = down_sample_blk(128, 128)
+    return blk
+```
+
+对于每层blk都需要提取需要的操作，包括锚框、类别、偏移量。
+
+```python
+def blk_forward(X, blk, size, ratio, cls_predictor, bbox_predictor):
+    Y = blk(X)#保证模型继续进行特征提取，逐层卷积
+    anchors = d2l.multibox_prior(Y, sizes=size, ratios=ratio)# 生成锚框
+    cls_preds = cls_predictor(Y)# 类别
+    bbox_preds = bbox_predictor(Y)# 偏移量
+    return (Y, anchors, cls_preds, bbox_preds)
+```
+
+
+
