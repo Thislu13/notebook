@@ -5,8 +5,6 @@
 
 ![image-20240713160452077](http://cdn.jsdelivr.net/gh/Thislu13/image_save@main/notebook/202407131604001.png)
 
-![image-20240713160528967](C:/Users/wangqiushuo/AppData/Roaming/Typora/typora-user-images/image-20240713160528967.png)
-
 
 
 * 图片里的点是并行的   语言是有先后关系的   同时也是 RNN 与 CNN 区别
