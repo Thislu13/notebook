@@ -72,3 +72,6 @@ $$
 
 ![image-20240712093109268](http://cdn.jsdelivr.net/gh/Thislu13/image_save@main/notebook/202407120931825.png)
 
+![image-20250124213916605](https://raw.githubusercontent.com/Thislu13/image_save/main/notebook/202501242139738.png)
+
+此处Mask使得当前只看$t_{k-1}$状态之前的数据，将$t_k$之后的部分置换为一个非常大的负数，经过softmax之后无限接近零，可以忽略
