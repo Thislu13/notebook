@@ -78,4 +78,8 @@ $$
 
 ![image-20250124215815723](https://raw.githubusercontent.com/Thislu13/image_save/main/notebook/202501242158757.png)
 
+> 多头注意力的原理，实际是通过多组线性层的映射（$W$）尝试将 $QKV$ 映射到不同的空间内，模仿卷积过程中产生的不同通道 
+
 ![image-20250125104201182](https://raw.githubusercontent.com/Thislu13/image_save/main/notebook/202501251042208.png)
+
+> Feed Forward 就是三维的MLP
