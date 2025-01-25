@@ -28,7 +28,7 @@
 
 * 向量与矩阵相乘一种理解方式是 空间变换（映射关系） 是线性变换（旋转、拉伸）存在一一对应关系
 
-  * 可以认为是向量本身的改变 维度不变的情况下
+  * 可以认为是向量本身的改变 (维度不变的情况下)
 
   * 可以认为产生变换的是矩阵空间，向量在每个维度的分向量（投影）经过矩阵变换（乘以对应的值）
 
@@ -74,4 +74,8 @@ $$
 
 ![image-20250124213916605](https://raw.githubusercontent.com/Thislu13/image_save/main/notebook/202501242139738.png)
 
-此处Mask使得当前只看$t_{k-1}$状态之前的数据，将$t_k$之后的部分置换为一个非常大的负数，经过softmax之后无限接近零，可以忽略
+此处Mask使得当前只看$k_{t-1}$状态之前的数据，将$k_t$之后的部分置换为一个非常大的负数，经过softmax之后无限接近零，可以忽略
+
+![image-20250124215815723](https://raw.githubusercontent.com/Thislu13/image_save/main/notebook/202501242158757.png)
+
+![image-20250125104201182](https://raw.githubusercontent.com/Thislu13/image_save/main/notebook/202501251042208.png)
