@@ -164,8 +164,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8c957ac0688f0f06",
+  "active": "7f9f362852f4c5ac",
   "lastOpenFiles": [
+    "图像处理.md",
+    "Untitled.md",
     "SSD原理及实现.md",
     "Tansformer.md",
     "动手学深度学习（三深度学习基础）.md",
@@ -187,7 +189,6 @@
     "二值化方法.md",
     "服务器使用技巧.md",
     "概率论.md",
-    "Untitled.md",
     "git常见问题解决.md",
     "Git使用.md",
     "Git 建立 ssh 连接.md"
